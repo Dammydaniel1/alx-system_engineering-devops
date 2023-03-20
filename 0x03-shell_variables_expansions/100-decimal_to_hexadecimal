@@ -1,2 +1,2 @@
 #!/bin/bash
-putchar($DECIMAL//16) | putchar($DECIMAL%16) | putchar '\n'
+printf "%x\n" $DECIMAL
